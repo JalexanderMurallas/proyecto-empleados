@@ -1,0 +1,28 @@
+###
+GET http://localhost:3000/api/empleados/
+
+
+###
+POST http://localhost:3000/api/empleados/
+Content-Type: application/json
+
+{
+    "name": "Orderalien",
+    "position": "Senior Dev",
+    "office": "Tic",
+    "salary": "27000"
+}
+
+###
+GET http://localhost:3000/api/empleados/62c649072084b1bc5ea68778
+
+###
+DELETE http://localhost:3000/api/empleados/62c649072084b1bc5ea68778
+
+###
+PUT http://localhost:3000/api/empleados/62c649072084b1bc5ea68778
+Content-Type: application/json
+
+{
+    "salary": 29060
+}
